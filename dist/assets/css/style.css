@@ -279,7 +279,7 @@ body .datepicker:last-child { display: none !important;visibility: hidden !impor
 .Gender { margin-bottom: 40px; }
 .Gender .GenderInputs { display: inline-block; }
 .Gender .GenderInputs label { text-transform: uppercase;color: #566167; }
-.Gender .checkbox { margin-right: 30px; }
+.Gender .checkbox { margin-right: 0px; }
 .radio input[type="radio"]:checked ~ .check { background-color: #d7b74b; }
 .radio input[type="radio"]:checked ~ .circle { border-color: #d7b74b; }
 .DashboardContainer { margin-bottom: 30px; }
