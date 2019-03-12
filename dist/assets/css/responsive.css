@@ -7,11 +7,7 @@
 .bs-datepicker-container table tr td { border-bottom: none;padding: 0px; }
 .bs-datepicker-container table { border-top: none;border-right: none; }
 .bs-datepicker-container {padding: 10px;}
-
-
-
 }
-
 
 
 @media only screen and (min-width:1024px) and (max-width:1169px){
@@ -422,4 +418,11 @@ body .but[_ngcontent-c6]{margin-top:-40px !important;}
 .bs-datepicker-head { min-width: auto; }
 .bs-datepicker-body table.days span {width: 25px;height: 25px;line-height: 25px;}
 .bs-datepicker-body { min-height: 200px; }
+}
+
+@media only screen and (max-width: 479px) and (min-width: 0px){
+
+.main-traveler{margin-left: 0 !important;    margin-top: 5%;}
+.table-top-border-ywl{width: 100% !important;margin-left: 0 !important;}
+
 }
