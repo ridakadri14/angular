@@ -60,7 +60,7 @@ url('assets/fonts/901367188-Roboto-Regular.ttf') format('truetype'); font-weight
 @font-face{font-family:"Roboto-Bold"; src: url('/assets/fonts/447387696-Roboto-Bold.eot'); src: url('assets/fonts/447387696-Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('assets/fonts/447387696-Roboto-Bold.svg#Roboto') format('svg'), url('assets/fonts/447387696-Roboto-Bold.woff') format('woff'), url('assets/fonts/447387696-Roboto-Bold.ttf') format('truetype'); font-weight: normal; font-style: normal;}
 
 @font-face{font-family:'RobotoMedium'; src: url('assets/fonts/roboto-medium.eot'); src: url('assets/fonts/roboto-medium.eot') format('embedded-opentype'), url('assets/fonts/roboto-medium.woff2') format('woff2'), url('assets/fonts/roboto-medium.woff') format('woff'),
-url('assets/fonts/roboto-medium.ttf') format('truetype'), url('assets/fonts/roboto-medium.svg#RobotoMedium') format('svg');}
+url('assets/fonts/roboto-medium.ttf') format('truetype'), url('/assets/fonts/roboto-medium.svg#RobotoMedium') format('svg');}
 
 @font-face{font-family:'Roboto-Light'; src: url('assets/fonts/Roboto-Light_gdi.eot'); src: url('assets/fonts/Roboto-Light_gdi.eot?#iefix') format('embedded-opentype'), url('assets/fonts/Roboto-Light_gdi.woff') format('woff'),
 url('assets/fonts/Roboto-Light_gdi.ttf') format('truetype'), url('assets/fonts/Roboto-Light_gdi.svg#Roboto-Light') format('svg');
