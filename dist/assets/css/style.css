@@ -246,7 +246,7 @@ footer .pull-right ul li { margin-left: 20px; }
 .DashboardBlock { margin-bottom: 30px; }
 .DashboardBlock .col-md-6 article .DashboardBlocktit { position: absolute;top: -20px;left:15px;background: #fff;font-size: 24px;color: #566167;font-family: "Montserrat-Bold";padding: 0px 15px; }
 .DashboardBlock .DashBlkContent h3 { color: #d3af37;font-size: 60px;font-family: "Roboto-Bold";line-height: 50px;margin-bottom: 20px; }
-.DashboardBlock .DashBlkContent p { font-size: 18px;color: #d3af37; }
+.DashboardBlock .DashBlkContent p { font-size: 18px;color: #d3af37; text-decoration: underline;}
 .DashboardBlock .DashBlkContent span { display: block;font-size: 16px;color: #566167;margin-bottom: 15px; }
 .text-red { color: red !important; }
 .DashboardBlock .col-md-6:nth-child(1) .DashboardBlockInner { background: url(assets/images/bg1.png) no-repeat;background-position:right;background-size: 130px 130px; }
@@ -397,7 +397,7 @@ min-width: 165px; background: url(assets/images/down-select-filter.png) no-repea
 .VisaStatus .panel-group .panel > .panel-heading, .panel.panel-default > .panel-heading { background: none;padding: 10px;color: #566167; }
 .VisaStatus .panel-group > .panel  .panel-body { padding:0px; }
 .VisaStatus .panel-group > .panel  .panel-body .nav > li { padding:5px 10px; }
-.VisaStatus .panel.panel-default > .panel-heading > h4 > a { display: block;font-size: 16px;font-family: "Roboto-Bold"; }
+.VisaStatus .panel.panel-default > .panel-heading > h4 > a { display: block;font-size: 14px;font-family: "Roboto-Bold"; }
 .VisaStatus .panel-heading > h4 > a.collapsed { background: url(assets/images/drop-filter-1.png) no-repeat;background-size: 22px 22px;background-position: right center; }
 .VisaStatus .panel-heading > h4 > a { background: url(assets/images/drop-filter-2.png) no-repeat;background-size: 22px 22px;background-position: right center; }
 .TableTabing .nav-pills > li { width: 25%;margin: 0px;border-top: 5px solid #646464;border-right: 1px solid white;position: relative; }
@@ -467,7 +467,7 @@ vertical-align: middle; background-color: #777; border-radius: 10px; margin-top:
 a.HeaderIconsLink i { font-size: 28px !important;margin-top: 15px;margin-top: 17px; }
 .SearchBarTop  { padding: 0px 30px; }
 .OutBoxBtn { margin: 0px; }
-.SearchBarTop .ActiveLogCheck  { margin-left: 40px; }
+.SearchBarTop .ActiveLogCheck  { margin-left: 60px; }
 .SearchBarTop  .ActiveSearchInner > ul > li .BtnSm { margin: 0px; }
 .SearchBarTop  .ActiveSearchInner > ul > li .BtnSm button { padding: 0px 15px; }
 .SearchBarTop .ActiveSearchInner > ul > li:first-child { margin-left: 0px; }
@@ -477,8 +477,8 @@ a.HeaderIconsLink i { font-size: 28px !important;margin-top: 15px;margin-top: 17
 .HeaderIconsLink { width: 60px;position: relative; }
 .DataTableBox{overflow:auto;}
 .form-search{position:relative;}
-.searchbutton{position: absolute; top: 5px; right: 3px;}
-.searchbutton .btn{height: 36px; padding: 0px 10px!important;}
+.searchbutton{position: absolute; top: 5px; right: -42px;}
+.searchbutton .btn{height: 38px; padding: 0px 10px!important;}
 .topheading{position: relative; top: 4px; font-family: "Roboto-Bold"; font-size: 26px;color: #646464;}
 .searchlayout{padding: 1px;}
 .chip{cursor: pointer}
@@ -522,7 +522,8 @@ left:0; top:6px;}
 /*.DashboardContainer{min-height:550px;}*/
 .LoginHomeWarper .container{width:100%;}
 body .modal[_ngcontent-c7]{margin-right:0;}
-body .modal-lg[_ngcontent-c7]{width:auto; margin:0px 15px;}
+body .modal-lg[_ngcontent-c7]{width: 90%;
+margin-top: 5%}
 .login_form_inner{width:434px; margin:auto;}
 
 .DataTable .DataTableBox{overflow:auto !important;}
@@ -548,4 +549,32 @@ body .but[_ngcontent-c6]{margin-top:-57px !important;}
 .btn-center{
 	margin-left: 47%;
     margin-bottom: 1%;
+}
+
+.filterclearlink{
+    color: #d3af37;
+    padding-top: 5px;
+    padding-left: 11px;
+    cursor: pointer;
+
+}
+.cornercount{
+    background: #d4af38;
+    color: #fff;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 20px !important;
+    padding-top: 1px !important;
+    padding-left: 2px !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute !important;
+    top: -6px !important;
+    right: -8px !important;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+     border-top-color: #d3af37 !important; 
+    
 }

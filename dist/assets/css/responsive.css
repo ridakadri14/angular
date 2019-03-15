@@ -10,6 +10,14 @@
 .modal-sm {margin-top: 20%;}
 }
 
+@media (min-width: 992px){
+.modal-lg {
+    width: 90%;
+    margin-top: 5%;
+}
+}
+
+
 
 @media only screen and (min-width:1024px) and (max-width:1169px){
 .container{width:100%; padding:0px 15px;}
