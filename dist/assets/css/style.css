@@ -166,6 +166,18 @@ footer .pull-right ul li { margin-left: 20px; }
 .SiteBtn a:hover,.SiteBtn input:hover,.SiteBtn button:hover { background: #333; }
 .BtnBorder button {  text-align: center; height: 45px;border-radius: 5px;display: inline-block;line-height: 45px;padding: 0px 15px;background: #fff;color: #d3af37;font-family: "Pro-Bold";font-size: 16px;border: 2px solid #d3af37; }
 .BtnBorder button:hover,.BtnBorder button:focus { background:#d3af37;  }
+.btn-border{    text-align: center;
+    height: 38px;
+    border-radius: 5px;
+    display: inline-block;
+    line-height: 37px;
+    padding: 0px 15px;
+    background: #fff;
+    color: #d3af37;
+    font-family: "Pro-Bold";
+    font-size: 13px;
+    border: 2px solid #d3af37;
+}
 
 .BtnBorder a {  text-align: center; height: 45px;border-radius: 5px;display: inline-block;line-height: 45px;padding: 0px 15px;background: #fff;color: #d3af37;font-family: "Pro-Bold";font-size: 16px;border: 2px solid #d3af37; }
 .BtnBorder a:hover,.BtnBorder button:focus { background:#d3af37;  }
@@ -211,7 +223,7 @@ footer .pull-right ul li { margin-left: 20px; }
 .ForgotPassModal .modal-dialog .modal-content { background: no-repeat;padding: 50px; }
 .ForgotPassModal .modal-dialog .modal-content .modal-body { padding: 0px;margin-top: 40px; }
 .modal-body .SiteBtn button { display: block;width: 100%; }
-.close { position: absolute;right: 0;width: 40px;height: 40px;background:#d3af37 !important;font-size: 30px;top: -15px;opacity: 1; }
+.close { position: absolute;right: 0;width: 40px;height: 40px;background:#d3af37 !important;font-size: 30px;top: -12px;opacity: 1; }
 .close:after {content: ""; background: url(assets/images/pop-up.png) no-repeat;background-size: 100% auto;width: 16px;height: 16px;position: absolute;left:-15px;top: 0px; }
 .HeadModal h4 { color:#566167;font-family: "Montserrat-Black";font-size: 30px;text-align: center;text-transform: uppercase; }
 .modal-backdrop.in { opacity: 0.5; }
@@ -533,3 +545,7 @@ body .but[_ngcontent-c6]{margin-top:-57px !important;}
 .ngx-select__selected-single   span, .ngx-select__selected-plural span{text-transform: capitalize;}
 .ngx-select_item {text-transform: capitalize;}
 .ngx-select__disabled{background-color: #ffffff!important;}
+.btn-center{
+	margin-left: 47%;
+    margin-bottom: 1%;
+}

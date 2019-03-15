@@ -7,6 +7,7 @@
 .bs-datepicker-container table tr td { border-bottom: none;padding: 0px; }
 .bs-datepicker-container table { border-top: none;border-right: none; }
 .bs-datepicker-container {padding: 10px;}
+.modal-sm {margin-top: 20%;}
 }
 
 
@@ -54,6 +55,7 @@ body .modal-lg[_ngcontent-c7]{width:auto; margin:0px 15px;}
 .bs-datepicker-body { min-width: auto;padding: 0px;border: none; }
 .bs-datepicker-multiple + .bs-datepicker-multiple { margin: 0px;display: block; }
 .bs-datepicker { height: 302px;overflow: auto; }
+.modal-sm {margin-top: 20%;}
 
 
 }
@@ -138,6 +140,7 @@ table .SelectBox{width:auto; padding-right:33px;}
 .bs-datepicker-body { min-width: auto;padding: 0px;border: none; }
 .bs-datepicker-multiple + .bs-datepicker-multiple { margin: 0px;display: block; }
 .bs-datepicker { height: 302px;overflow: auto; }
+.modal-sm {margin-top: 20%;}
 
 }
 
@@ -264,6 +267,7 @@ table .SelectBox{width:auto; padding-right:33px;}
 .bs-datepicker-head { min-width: auto; }
 .bs-datepicker-body table.days span {width: 25px;height: 25px;line-height: 25px;}
 .bs-datepicker-body { min-height: 200px; }
+.modal-sm {margin-top: 20%;}
 
 }
 
@@ -374,7 +378,7 @@ table .SelectBox{width:auto; padding-right:33px;}
 .BoxStyleInner{padding:25px;}
 .BoxStyleInner h2{font-size:22px; top:-17px;}
 .ActivityBox .ActivityList article{padding:10px 0px;}
-.ActivityBox .ActivityList article figure{float:none; display:block; width:100%; text-align:left; margin-bottom:15px;}
+.ActivityBox .ActivityList article figure{float:none; display:block; width:0px;height: 0px; text-align:left; margin-bottom:15px;}
 .ActivityBox .ActivityList article figcaption{float:none; display:block; width:100%; padding-left:0;}
 .Announcement.ActivityBox .ActivityList li .BtnSm{position:relative; top:0; margin-top:15px;}
 .BoxStyleInner{padding:25px;}
@@ -418,11 +422,23 @@ body .but[_ngcontent-c6]{margin-top:-40px !important;}
 .bs-datepicker-head { min-width: auto; }
 .bs-datepicker-body table.days span {width: 25px;height: 25px;line-height: 25px;}
 .bs-datepicker-body { min-height: 200px; }
+.modal-sm {margin-top: 20%;};
+
+    
 }
 
 @media only screen and (max-width: 479px) and (min-width: 0px){
 
 .main-traveler{margin-left: 0 !important;    margin-top: 5%;}
-.table-top-border-ywl{width: 100% !important;margin-left: 0 !important;}
+.table-top-border-ywl{width: 99% !important;margin-left: 1% !important;}
+.btn-center{margin-left: 34%; margin-bottom: 1%;}
+.modal-sm {margin-top: 20%;}
+.ActivityBox .ActivityList article figure{float:none; display:block; width:0px;height: 0px; text-align:left; margin-bottom:15px;}
+.Tabing{
+    width: 99%;
+    margin-left: 1%;
+}
+
+
 
 }
