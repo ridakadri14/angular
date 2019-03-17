@@ -578,3 +578,9 @@ body .but[_ngcontent-c6]{margin-top:-57px !important;}
      border-top-color: #d3af37 !important; 
     
 }
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover{
+    background-color: #d3af37;
+}
+a {
+    cursor: pointer;
+}
