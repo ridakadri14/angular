@@ -17,8 +17,6 @@
 }
 }
 
-
-
 @media only screen and (min-width:1024px) and (max-width:1169px){
 .container{width:100%; padding:0px 15px;}
 .logo{float:left; width:250px;}
@@ -437,15 +435,22 @@ body .but[_ngcontent-c6]{margin-top:-40px !important;}
 
 @media only screen and (max-width: 479px) and (min-width: 0px){
 
-.main-traveler{margin-left: 0 !important;    margin-top: 5%;}
+.main-traveler{margin-left: 10px !important;    margin-top: 5%;}
 .table-top-border-ywl{width: 99% !important;margin-left: 1% !important;}
 .btn-center{margin-left: 34%; margin-bottom: 1%;}
 .modal-sm {margin-top: 20%;}
 .ActivityBox .ActivityList article figure{float:none; display:block; width:0px;height: 0px; text-align:left; margin-bottom:15px;}
 .Tabing{
-    width: 99%;
-    margin-left: 1%;
+    width: 99% !important;;
+    margin-left: 1% !important;
 }
+.btndown.DownloadBnt a {
+    margin-right: 10px;
+    display: inline-block;
+    width: 26px;
+    height: 20px;
+}
+
 
 
 
