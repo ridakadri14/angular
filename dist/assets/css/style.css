@@ -119,6 +119,9 @@ header .NavLoginBox { float: right;margin-top: 10px; }
 .NavPostBtn { margin-top: 5px; }
 .NavLoginBox {  }
 a.logo .ripple-container { display: none; }
+.NavPostBtn > li {
+    padding-right: 7px;
+}
 
 /*genral css*/
 a, a:hover, a:focus { color: #d3af37; }
