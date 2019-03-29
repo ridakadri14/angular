@@ -587,3 +587,4 @@ body .but[_ngcontent-c6]{margin-top:-57px !important;}
 a {
     cursor: pointer;
 }
+.ngx-select__placeholder { text-transform: capitalize !important;}
