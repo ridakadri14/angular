@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{margin:0; padding:0;}
 .col_lg5{display:block;}
 .col_lg5:after,.col_lg5:before{display:table;clear:both;content:"";}
 .col_lg5 .col1{float:left;width:20%;}
-.container{margin:0px auto;padding: 0;}
+.container{margin:27px;padding: 0;}
 .container:after,.container:before{display:table; clear:both; content:"";}
 .warper{display:block;background: #f6f1dd; /*min-height: 700px;*/}
 .warper:after,.warper:before{display:table; clear:both; content:"";}
@@ -244,8 +244,8 @@ footer .pull-right ul li { margin-left: 20px; }
 .DashNavBar .navbar-collapse { padding: 0px; }
 .DashNavBar .navbar { box-shadow: none;border-radius: 0px;background: #646464;padding: 0px; margin-bottom: 30px;}
 .DashboardBlock .col-md-6 { margin: 15px 0px; }
-.DashboardBlock .col-md-6 article { background: #fff;padding: 30px; }
-.DashboardBlock .col-md-6 article .DashboardBlockInner { min-height: 225px;border: 1px solid #e2ca7a;padding: 25px;position: relative;padding-bottom: 10px; }
+.DashboardBlock .col-md-6 article { background: #fff;padding: 2px; }
+.DashboardBlock .col-md-6 article .DashboardBlockInner { min-height: 180px;border: 1px solid #e2ca7a;padding: 25px;position: relative;padding-bottom: 10px; }
 .DashboardBlock { margin-bottom: 30px; }
 .DashboardBlock .col-md-6 article .DashboardBlocktit { position: absolute;top: -20px;left:15px;background: #fff;font-size: 24px;color: #566167;font-family: "Montserrat-Bold";padding: 0px 15px; }
 .DashboardBlock .DashBlkContent h3 { color: #d3af37;font-size: 60px;font-family: "Roboto-Bold";line-height: 50px;margin-bottom: 20px; }
@@ -254,8 +254,8 @@ footer .pull-right ul li { margin-left: 20px; }
 .text-red { color: red !important; }
 .DashboardBlock .col-md-6:nth-child(1) .DashboardBlockInner { background: url(assets/images/bg1.png) no-repeat;background-position:right;background-size: 130px 130px; }
 .DashboardBlock .col-md-6:nth-child(2) .DashboardBlockInner { background: url(assets/images/bg2.png) no-repeat;background-position:right;background-size: 130px 130px; }
-.DashboardBlock .col-md-6:nth-child(3) .DashboardBlockInner { background: url(assets/images/bg3.png) no-repeat;background-position:right;background-size: 130px 130px; }
-.DashboardBlock .col-md-6:nth-child(4) .DashboardBlockInner { background: url(assets/images/bg4.png) no-repeat;background-position:right;background-size: 130px 130px; }
+.DashboardBlock .col-md-6:nth-child(4) .DashboardBlockInner { background: url(assets/images/bg3.png) no-repeat;background-position:right;background-size: 130px 130px; }
+.DashboardBlock .col-md-6:nth-child(6) .DashboardBlockInner { background: url(assets/images/bg4.png) no-repeat;background-position:right;background-size: 130px 130px; }
 .ProfileHeader { float: left; }
 .ProfileHeaderDrop button figure { display: inline-block;height: 42px;width: 42px;border: 1px solid #bababa; border-radius: 50%;overflow: hidden;margin-right: 10px; }
 .ProfileHeaderDrop button figure img { object-position: center;object-fit: cover;width: 100%;height: 100%; }
@@ -293,7 +293,7 @@ body .datepicker:last-child { display: none !important;visibility: hidden !impor
 .Gender .checkbox { margin-right: 0px; }
 .radio input[type="radio"]:checked ~ .check { background-color: #d7b74b; }
 .radio input[type="radio"]:checked ~ .circle { border-color: #d7b74b; }
-.DashboardContainer { margin-bottom: 30px; }
+/* .DashboardContainer { margin-bottom: 30px; } */
 .InnerRow label { font-size: 14px;color: /*#566167;*/#d8b852;text-transform: uppercase; }
 .AddRow a{ background: none;border: none;position: absolute;top: -5px;right: 0;font-size: 38px;color: #d7b74b;border-left: 5px solid #fff;border-bottom: 10px solid #fff; cursor: pointer;  }
 .AddRow a:hover{color:#333;}
