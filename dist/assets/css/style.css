@@ -243,7 +243,7 @@ footer .pull-right ul li { margin-left: 20px; }
 .DashboardBlock .col-md-6 { margin: 15px 0px; }
 .DashboardBlock .col-md-6 article { background: #fff;padding: 2px; }
 .DashboardBlock .col-md-6 article .DashboardBlockInner { min-height: 180px;border: 1px solid #e2ca7a;padding: 25px;position: relative;padding-bottom: 10px; }
-.DashboardBlock { margin-bottom: 30px; }
+.DashboardBlock { margin-bottom: 0px; }
 .DashboardBlock .col-md-6 article .DashboardBlocktit { position: absolute;top: -20px;left:15px;background: #fff;font-size: 24px;color: #566167;font-family: "Montserrat-Bold";padding: 0px 15px; }
 .DashboardBlock .DashBlkContent h3 { color: #d3af37;font-size: 60px;font-family: "Roboto-Bold";line-height: 50px;margin-bottom: 20px; }
 .DashboardBlock .DashBlkContent p { font-size: 18px;color: #d3af37; text-decoration: underline;}
