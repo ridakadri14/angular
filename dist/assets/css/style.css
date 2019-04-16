@@ -242,7 +242,7 @@ footer .pull-right ul li { margin-left: 20px; }
 .DashNavBar .navbar { box-shadow: none;border-radius: 0px;background: #646464;padding: 0px; margin-bottom: 30px;}
 .DashboardBlock .col-md-6 { margin: 15px 0px; }
 .DashboardBlock .col-md-6 article { background: #fff;padding: 2px; }
-.DashboardBlock .col-md-6 article .DashboardBlockInner { min-height: 180px;border: 1px solid #e2ca7a;padding: 25px;position: relative;padding-bottom: 10px; }
+.DashboardBlock .col-md-6 article .DashboardBlockInner { min-height: 192px;border: 1px solid #e2ca7a;padding: 25px;position: relative;padding-bottom: 10px; }
 .DashboardBlock { margin-bottom: 0px; }
 .DashboardBlock .col-md-6 article .DashboardBlocktit { position: absolute;top: -20px;left:15px;background: #fff;font-size: 24px;color: #566167;font-family: "Montserrat-Bold";padding: 0px 15px; }
 .DashboardBlock .DashBlkContent h3 { color: #d3af37;font-size: 60px;font-family: "Roboto-Bold";line-height: 50px;margin-bottom: 20px; }
@@ -585,3 +585,50 @@ a {
     cursor: pointer;
 }
 .ngx-select__placeholder { text-transform: capitalize !important;}
+.modal-sm{
+	margin-top: 20% !important;
+}
+.userStatus {
+    background: #d4af38;
+    color: #fff;
+    width: 22px !important;
+    height: 22px !important;
+    display: inline-block;
+    line-height: 20px !important;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-left: -3%;
+}
+.green{
+	background: green !important;
+}
+.red{
+	background: red !important;
+}
+.grey{
+	background: #1d0e0e !important;
+}
+
+.grey2 {
+    background:#778899 !important;
+}
+.strikethrough {
+  position: relative;
+}
+
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+
+  -webkit-transform:rotate(-50deg);
+  -moz-transform:rotate(-50deg);
+  -ms-transform:rotate(-50deg);
+  -o-transform:rotate(-50deg);
+  transform:rotate(-50deg);
+}
